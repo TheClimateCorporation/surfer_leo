@@ -24,7 +24,7 @@ require 'surfer_leo'
 
 # ...
 
-use SurferLeo::HostFilter, "yourdomain.com"
+use SurferLeo::HostFilter, ["yourdomain.com"]
 
 ```
 
